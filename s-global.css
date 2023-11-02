@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    line-height: normal;
+    overflow-y: hidden;
+    height: 100%;
+  }
+  
+  :root {
+    /* fonts */
+    --font-outfit: Outfit;
+  
+    /* font sizes */
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-lightgray: #ccc;
+    --color-gainsboro: rgba(217, 217, 217, 0.2);
+    --color-darkslategray-100: #2f3032;
+  
+    /* Paddings */
+    --padding-3xl: 22px;
+    --padding-9xl: 28px;
+  
+    /* Border radiuses */
+    --br-lg: 18px;
+  }
+  

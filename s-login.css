@@ -1,0 +1,145 @@
+.lorem-ipsum-dolor,
+.welcome-back {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.welcome-back {
+  font-weight: 600;
+  width: 254px;
+  height: 42.5px;
+}
+.lorem-ipsum-dolor {
+  display: grid;
+  place-items: center;
+  font-size: var(--font-size-base);
+  color: #404145;
+  width: 325px;
+  height: 56.67px;
+  opacity: 0.7;
+  padding: 8px;
+}
+.welcome-back-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+  font-size: 36px;
+}
+.matric {
+  position: relative;
+  font-weight: 300;
+  opacity: 0.7;
+}
+.password,
+.password-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.matric{
+  position: relative;
+  font-weight: 300;
+  padding: 8px;
+  width: 250px;
+  font-size: 16px;
+  font-family: Outfit;
+  opacity: 0.3;
+  border-radius: 6px;
+}
+/* .password {
+  border-radius: var(--br-lg);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 455px;
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-9xl);
+} */
+.password-parent {
+  flex-direction: column;
+  gap: 24px;
+}
+a,
+.forgot-passwords {
+  position: relative;
+  color: #0ab28b;
+  display: flex;
+  align-items: flex-start;
+  width: -100%;
+  height: 18.89px;
+  flex-shrink: 0;
+  font-size: 12px;
+  margin: 0 0 20px 0;
+  text-decoration: none;
+}
+
+a,
+.forgot-passwords:visited {
+  color: rgba(10, 179, 140, 0.068);
+}
+
+a,
+.forgot-passwords:hover{
+  text-decoration: underline;
+}
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.log-in {
+  position: relative;
+  font-weight: 500;
+}
+.log-in input[type="submit"] {
+  background: linear-gradient(92.16deg, #203c3d, #0ab28b);
+  font-family: Outfit;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 270px;
+  transition: background-color 0.5s;
+}
+
+.log-in input[type="submit"]:hover {
+  background: #0ab28b;
+}
+
+
+.content {
+  position: absolute;
+  top: 229px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 51px;
+}
+.mask-group-icon {
+  position: absolute;
+  top: calc(50% - 510px);
+  left: calc(50% - 70.39px);
+  width: 790.39px;
+  height: 768px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.student-login {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1020px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-outfit);
+}
