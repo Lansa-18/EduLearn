@@ -1,0 +1,192 @@
+.lorem-ipsum-dolor,
+.sign-up {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sign-up {
+  font-weight: 600;
+  width: 124px;
+  height: 42.5px;
+}
+.lorem-ipsum-dolor {
+  font-size: var(--font-size-base);
+  color: #404145;
+  width: 325px;
+  height: 56.67px;
+  opacity: 0.7;
+}
+.sign-up-parent {
+  position: absolute;
+  top: 107.28px;
+  left: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+  font-size: 36px;
+}
+.name {
+  position: relative;
+  font-weight: 300;
+  padding: 8px;
+  width: 250px;
+  font-size: 16px;
+  font-family: Outfit;
+  opacity: 0.3;
+  border-radius: 6px;
+}
+/* .password {
+  border-radius: var(--br-lg);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 455px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-9xl);
+} */
+.vector-icon {
+  position: relative;
+  width: 6.67px;
+  height: 4px;
+}
+.drop-down-icon {
+  border-radius: var(--br-33xl);
+  background-color: var(--color-mediumaquamarine);
+  width: 18px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+.dpartment {
+  border-radius: var(--br-lg);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 455px;
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-9xl);
+  gap: 303px;
+}
+.dpartment,
+.faculty,
+.name-email-password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.faculty {
+  border-radius: var(--br-lg);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 455px;
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-9xl);
+  gap: 339px;
+}
+.name-email-password {
+  position: absolute;
+  top: calc(50% - 242px);
+  left: 90px;
+  flex-direction: column;
+  gap: 24px;
+  
+}
+
+.mask-group-icon {
+  position: absolute;
+  top: calc(50% - 510px);
+  left: calc(50% - 70px);
+  width: 790.39px;
+  max-height: 1020px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.sign-up1 {
+  position: relative;
+  font-weight: 500;
+}
+.sign-in {
+  border-radius: var(--br-lg);
+  background: linear-gradient(90.99deg, #203c3d, #0ab28b);
+  border: 1px solid var(--color-lightgray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xl) 199px;
+
+}
+.already-have-an {
+  position: relative;
+  font-size: 15px;
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  width: 173px;
+  height: 17.94px;
+  flex-shrink: 0;
+}
+.frame-child {
+  position: relative;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 39px;
+}
+
+.sign-up2 input[type="submit"] {
+  background: linear-gradient(92.16deg, #203c3d, #0ab28b);
+  font-family: Outfit;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 270px;
+  transition: background-color 0.5s;
+}
+
+.sign-up2 input[type="submit"]:hover {
+  background: #0ab28b;
+}
+
+.log-in {
+  position: relative;
+  display: inline-block;
+  color: var(--color-mediumaquamarine);
+  width: 54px;
+  height: 18.89px;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.sign-in-parent {
+  position: absolute;
+  top: 734px;
+  left: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 17px;
+  color: var(--color-white);
+}
+.student-sign-up {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1020px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-outfit);
+}
